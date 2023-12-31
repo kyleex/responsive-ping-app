@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Fonction pour ouvrir le menu
 function openMenu() {
-  let sidebar = document.getElementById("sidebar");
+  let sidebar = document.getElementById("nav-container");
   if (sidebar) {
     sidebar.style.display = "flex"; // ou 'block' si votre sidebar n'est pas un flex container
   } else {
@@ -33,7 +33,7 @@ function openMenu() {
 
 // Fonction pour fermer le menu
 function closeMenu() {
-  let sidebar = document.getElementById("sidebar"); // Trouve l'élément sidebar par son ID
+  let sidebar = document.getElementById("nav-container"); // Trouve l'élément sidebar par son ID
   if (sidebar) {
     sidebar.style.display = "none"; // Change le style `display` pour cacher la sidebar
   } else {
