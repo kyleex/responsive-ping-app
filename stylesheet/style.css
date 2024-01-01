@@ -156,7 +156,7 @@ div.announcement-carousel {
   width: 100%;
   min-height: 214px;
 
-  div.content {
+  & div.content {
     display: flex;
     flex-direction: column;
     align-self: stretch;
@@ -164,7 +164,7 @@ div.announcement-carousel {
     justify-content: space-between;
     margin: 5vw;
 
-    a.carousel-title {
+    & a.carousel-title {
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
@@ -174,7 +174,7 @@ div.announcement-carousel {
       font-weight: bold;
     }
 
-    button.carousel-btn {
+    & button.carousel-btn {
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
@@ -210,7 +210,7 @@ div.tournament-cards-container {
   gap: 24px;
   overflow-x: auto;
 
-  div.tournament-card {
+  & div.tournament-card {
     display: flex;
     min-width: 168px;
     min-height: 204px;
