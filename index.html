@@ -3,7 +3,7 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
     </style>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="stylesheet/style.css" />
     <title>Ping</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -17,10 +17,42 @@
     <div id="nav-container"></div>
 
     <!-- contenu de la page ici -->
-    <main></main>
+    <main>
+      <div class="announcement-carousel">
+        <div class="content">
+          <a class="carousel-title">Title</a>
+          <button class="carousel-btn">
+            <a>Check now</a>
+          </button>
+        </div>
+        <!-- <img src="icons/arrow-left.png" alt="prev" /> -->
+      </div>
+
+      <div class="tournaments-section">
+        <div class="tournaments-section-title">
+          <a class="title">Popular tournaments</a>
+        </div>
+        <div class="tournament-cards-container">
+          <div class="tournament-card"></div>
+          <div class="tournament-card"></div>
+          <div class="tournament-card"></div>
+        </div>
+      </div>
+
+      <div class="tournaments-section">
+        <div class="tournaments-section-title">
+          <a class="title">Starting soon tournaments</a>
+        </div>
+        <div class="tournament-cards-container">
+          <div class="tournament-card"></div>
+          <div class="tournament-card"></div>
+          <div class="tournament-card"></div>
+        </div>
+      </div>
+    </main>
 
     <!-- footer -->
-    <script src="load-components.js"></script>
-    <script src="script.js"></script>
+    <script src="script/load-components.js"></script>
+    <script src="script/script.js"></script>
   </body>
 </html>
